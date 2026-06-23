@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    background: black;
+    color: white;
+    font-family: Arial;
+    overflow: hidden;
+}
+
+/* pantalla inicial */
+#intro {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.sobre {
+    font-size: 3em;
+    text-align: center;
+}
+
+/* carta */
+#carta {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('17.webp') center/cover;
+}
+
+.hidden {
+    display: none;
+}
+
+.contenido {
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    padding: 20px;
+    border-radius: 15px;
+}
