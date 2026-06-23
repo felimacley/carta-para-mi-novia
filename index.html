@@ -3,29 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <title>Para mi amor ❤️</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-<div id="intro" onclick="abrirCarta()">
-    <div class="sobre">
+<!-- pantalla inicial -->
+<div id="intro">
+    <div class="sobre" onclick="abrirCarta()">
         💌
         <p>Toca para abrir</p>
     </div>
 </div>
 
+<!-- carta -->
 <div id="carta" class="hidden">
     <div class="contenido">
         <p id="texto"></p>
     </div>
 </div>
 
-<audio id="musica" loop>
-    Musica mp3s.mp3
-</audio>
+<!-- música -->
+<audio id="musica" src="musica.mp3" loop></audio>
 
-script.jsscript>
+<!-- script -->
+<script src="script.js"></script>
 
 </body>
 </html>
