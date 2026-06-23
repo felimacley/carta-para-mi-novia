@@ -1,9 +1,9 @@
 body {
     margin: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
     background: black;
     color: white;
-    font-family: Arial;
-    overflow: hidden;
 }
 
 /* pantalla inicial */
@@ -12,12 +12,12 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    cursor: pointer;
 }
 
 .sobre {
-    font-size: 3em;
+    font-size: 2.5em;
     text-align: center;
+    cursor: pointer;
 }
 
 /* carta */
@@ -26,7 +26,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('17.webp') center/cover;
+    background: url('17.webp') center/cover no-repeat;
 }
 
 .hidden {
@@ -34,8 +34,19 @@ body {
 }
 
 .contenido {
-    text-align: center;
-    background: rgba(0,0,0,0.5);
+    background: rgba(0,0,0,0.65);
     padding: 20px;
     border-radius: 15px;
+    max-width: 90%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+/* para móvil */
+@media (max-width: 600px) {
+    .contenido {
+        font-size: 16px;
+        padding: 15px;
+    }
 }
