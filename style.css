@@ -43,7 +43,7 @@ body {
     line-height: 1.6;
 }
 
-/* para móvil */
+/* móvil */
 @media (max-width: 600px) {
     .contenido {
         font-size: 16px;
