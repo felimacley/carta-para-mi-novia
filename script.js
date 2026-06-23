@@ -1,27 +1,25 @@
-const mensaje = `No fue casualidad encontrarte...
+const mensaje = `No sé exactamente en qué momento pasó,
+pero desde que estás en mi vida todo se siente distinto.
 
-Desde que llegaste,
-todo en mi vida cambió de una forma tan bonita
-que aún me cuesta creerlo.
+Hay días normales,
+pero contigo cualquier cosa se vuelve especial.
 
-Eres mi tranquilidad en los días difíciles,
-mi alegría en los momentos simples
-y mi pensamiento favorito cada día.
+Me gusta estar contigo,
+sin hacer nada,
+solo hablar o quedarnos tranquilos.
 
-Mi lugar favorito es estar frente a ti,
-mirando tus hermosos ojos
-que tienen la magia de calmarme
-y hacerme sentir completo.
+Y sí…
+mi lugar favorito es cuando estoy frente a ti,
+mirándote,
+perdiéndome en tus ojos,
+porque ahí es donde más en paz me siento.
 
-No eres solo alguien especial para mí…
-eres mi hogar,
-mi paz
-y mi felicidad en forma de persona.
+No es que todo sea perfecto,
+pero contigo todo vale la pena.
 
-Y si la vida me diera la oportunidad
-de elegir de nuevo,
-sin pensarlo…
-te elegiría a ti, siempre. 💖`;
+Y la verdad,
+no necesito algo grande para ser feliz,
+solo estar contigo. 💖`;
 
 let i = 0;
 
